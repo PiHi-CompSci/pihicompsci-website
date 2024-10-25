@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - PiHi CompSci</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="css/resources.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PiHi CompSci</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="info.html">About</a>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div data-aos="fade-up">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">Learning Resources</h1>
+            <p>Curated collection of the best computer science learning materials</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="course-section" data-aos="fade-up">
+            <h2 class="course-title">Free Courses: Table of Contents</h2>
+            <div class="course-content">
+                <div class="tags-container">
+                    <span class="tag">Programming Basics</span>
+                    <span class="tag">Web Development</span>
+                    <span class="tag">Data Structures</span>
+                    <span class="tag">Algorithms</span>
+                    <span class="tag">Machine Learning</span>
+                </div>
+                <ul class="course-list">
+                    <li>Meta learning (learning how to learn)</li>
+                    <li>Programming Methodology</li>
+                    <li>Code Quality</li>
+                    <li>Debugging principles and techniques</li>
+                    <li>Web Development</li>
+                    <li>Data Structures and Algorithms</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="resources-grid">
+            <div class="resource-card" data-aos="fade-up">
+                <h3 class="resource-category">Programming Fundamentals</h3>
+                <ul class="resource-list">
+                    <li><a href="#">Introduction to Python</a></li>
+                    <li><a href="#">Java Basics</a></li>
+                    <li><a href="#">Data Types & Variables</a></li>
+                    <li><a href="#">Control Structures</a></li>
+                </ul>
+            </div>
+
+            <div class="resource-card" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="resource-category">Advanced Topics</h3>
+                <ul class="resource-list">
+                    <li><a href="#">Object-Oriented Programming</a></li>
+                    <li><a href="#">Data Structures</a></li>
+                    <li><a href="#">Algorithms</a></li>
+                    <li><a href="#">Design Patterns</a></li>
+                </ul>
+            </div>
+
+            <div class="resource-card" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="resource-category">Web Development</h3>
+                <ul class="resource-list">
+                    <li><a href="#">HTML & CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Frontend Frameworks</a></li>
+                    <li><a href="#">Backend Development</a></li>
+                </ul>
+            </div>
+
+            <div class="resource-card" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="resource-category">Practice Resources</h3>
+                <ul class="resource-list">
+                    <li><a href="#">Coding Challenges</a></li>
+                    <li><a href="#">Project Ideas</a></li>
+                    <li><a href="#">Competition Prep</a></li>
+                    <li><a href="#">Mock Interviews</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
