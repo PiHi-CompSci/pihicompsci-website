@@ -6,6 +6,24 @@
     <title>Pioneer Coding Club</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .banner {
+            text-align: center;
+            padding: 1rem;
+            background: linear-gradient(45deg, #ff6b6b, #f06595, #cc5de8, #845ef7, #5c7cfa, #339af0, #22b8cf, #20c997, #51cf66, #94d82d, #fcc419, #ff922b);
+            background-size: 300% 300%;
+            animation: gradientAnimation 10s ease infinite;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
 </head>
 <body>
     <div id="particles-js"></div>
@@ -16,7 +34,10 @@
             <a href="resources.html">Resources</a>
         </div>
     </nav>
-
+    <div class="banner" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
+        <h2>Pre-Production Website | Beta</h2>
+    </div>
+    
     <section class="hero">
         <h1>Pioneer Coding Club</h1>
         <p>Fostering a passion for computer science and helping students navigate the rapidly evolving world of technology.</p>
