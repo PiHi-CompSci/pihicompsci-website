@@ -231,3 +231,31 @@ nav {
         left: 21px;
     }
 }
+
+.styled-link {
+    color: #007bff;
+    text-decoration: none;
+    position: relative;
+}
+
+.styled-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #007bff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.styled-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.styled-link:hover {
+    color: #0056b3;
+}
