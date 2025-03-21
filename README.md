@@ -16,9 +16,6 @@ Welcome to the **Pioneer Coding Club** website repository! This project is dedic
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
-
 ### Installation
 
 1. Clone the repository:
@@ -29,10 +26,7 @@ Make sure you have the following installed:
     ```bash
     cd pioneer-coding-club
     ```
-3. Install the dependencies:
-    ```bash
-    npm install
-    ```
+3. No dependancies, all good to go! 
 
 ### Running the Project
 
